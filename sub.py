@@ -6,7 +6,7 @@ import os
 
 from paho.mqtt import client as mqtt_client
 
-broker = '3.230.164.113'
+broker = 'test.mosquitto.org'
 port = 1883
 topic = "IEMA/WST/34:85:18:B8:2B:D4"
 # Generate a Client ID with the subscribe prefix.
